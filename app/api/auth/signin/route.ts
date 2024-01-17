@@ -2,7 +2,6 @@ import { connectDB } from "@/src/lib/connectDB";
 import { NextResponse } from "next/server";
 import jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
-
 import prisma from "@/prisma";
 
 export async function POST(req: Request) {
